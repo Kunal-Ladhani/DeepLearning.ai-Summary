@@ -1352,7 +1352,8 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   - Output shape will be (6, 6, 6, 32)
 
 ## Extras
-
+# More on GRAM MATRIX
+- ![](Images/Screen Shot 2018-07-02 at 3.58.05 PM.png)
 ### Keras
 
 - Keras is a high-level neural networks API (programming framework), written in Python and capable of running on top of several lower-level frameworks including TensorFlow, Theano, and CNTK.
