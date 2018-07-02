@@ -1352,8 +1352,11 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   - Output shape will be (6, 6, 6, 32)
 
 ## Extras
-# More on GRAM MATRIX
-- ![](Images/Screen Shot 2018-07-02 at 3.58.05 PM.png)
+### More on GRAM MATRIX
+
+![Gram](https://github.com/ishitamed19/DeepLearning.ai-Summary/edit/master/4-%20Convolutional%20Neural%20Networks/Images/Screen%20Shot%202018-07-02%20at%203.58.05%20PM.png)
+
+Screen Shot 2018-07-02 at 3.58.05 PM.png
 ### Keras
 
 - Keras is a high-level neural networks API (programming framework), written in Python and capable of running on top of several lower-level frameworks including TensorFlow, Theano, and CNTK.
