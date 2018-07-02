@@ -1329,6 +1329,12 @@ Here is the course summary as given on the course [link](https://www.coursera.or
      - Define the optimizer and the learning rate
   7. Initialize the TensorFlow graph and run it for a large number of iterations, updating the generated image at every step.
 
+ # Extra Info
+  -The result is a matrix of dimension  (nC,nC)(nC,nC)  where  nCnC  is the number of filters. The value  GijGij  measures    how similar the activations of filter  ii  are to the activations of filter  jj .
+  -One important part of the gram matrix is that the diagonal elements such as  GiiGii  also measures how active filter  ii  is. For example, suppose filter  ii  is detecting vertical textures in the image. Then  GiiGii  measures how common vertical textures are in the image as a whole: If  GiiGii  is large, this means that the image has a lot of vertical texture.
+  -By capturing the prevalence of different types of features ( GiiGii ), as well as how much different features occur together ( GijGij ), the Style matrix  GG  measures the style of an image.
+  
+
 #### 1D and 3D Generalizations
 
 - So far we have used the Conv nets for images which are 2D.
@@ -1352,11 +1358,6 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   - Output shape will be (6, 6, 6, 32)
 
 ## Extras
-### More on GRAM MATRIX
-
-![Gram](https://github.com/ishitamed19/DeepLearning.ai-Summary/edit/master/4-%20Convolutional%20Neural%20Networks/Images/Screen%20Shot%202018-07-02%20at%203.58.05%20PM.png)
-
-Screen Shot 2018-07-02 at 3.58.05 PM.png
 ### Keras
 
 - Keras is a high-level neural networks API (programming framework), written in Python and capable of running on top of several lower-level frameworks including TensorFlow, Theano, and CNTK.
