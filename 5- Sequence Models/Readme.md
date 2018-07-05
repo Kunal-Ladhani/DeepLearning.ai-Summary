@@ -138,6 +138,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - Inputs, outputs can be different lengths in different examples.
     - This can be solved for normal NNs by paddings with the maximum lengths but it's not a good solution.
   - Doesn't share features learned across different positions of text/sequence.
+    - Eg., "Teddy" at one place may correspond to a name, but it may not correspond to a name at some other place.
     - Using a feature sharing like in CNNs can significantly reduce the number of parameters in your model. That's what we will do in RNNs.
 - Recurrent neural network doesn't have either of the two mentioned problems.
 - Lets build a RNN that solves **name entity recognition** task:   
